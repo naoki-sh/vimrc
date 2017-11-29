@@ -100,7 +100,6 @@ set number
 set title
 set ruler
 set list
-set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:% ",eol:↲
 set mouse=a
 set incsearch "検索ワードの最初の文字を入力した時点で検索を開始する
 set hlsearch "検索結果をハイライトする
@@ -189,6 +188,8 @@ if has('autocmd')
   endfunction
   autocmd BufReadPost * call AU_ReCheck_FENC()
 endif
+
+set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:% ",eol:↲
 
 colorscheme molokai
 let g:rehash256 = 1
