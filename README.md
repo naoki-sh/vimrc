@@ -2,6 +2,13 @@
 vim setting
 
 # Install
+1. Install vim
+ ```
+ $sudo apt-get update
+ $sudo apt-get install vim
+ $sudo apt-get install vim-gnome
+ ```
+
 1. Install NeoBundle
  ```
  $ mkdir -p ~/.vim/bundle
@@ -16,4 +23,6 @@ vim setting
  ```
 
 3. run and install vim modules
+```
  $ vim
+```
