@@ -4,9 +4,9 @@ vim setting
 # Install
 1. Install vim
  ```
- $sudo apt-get update
- $sudo apt-get install vim
- $sudo apt-get install vim-gnome
+ $sudo apt update
+ $sudo apt install vim
+ $sudo apt install vim-gnome
  ```
 
 1. Install NeoBundle
