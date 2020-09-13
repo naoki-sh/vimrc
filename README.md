@@ -18,7 +18,7 @@ vim setting
  ```
  $ cd ~/
  $ git clone https://github.com/naoki-sh/vimrc.git
- $ cp ~/vimrc/.vim ~/
+ $ cp ~/vimrc/.vimrc ~/
  $ sudo rm -r ~/vimrc
  ```
 
